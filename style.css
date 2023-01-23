@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: brown;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  width: 400px;
+  margin: 45px auto;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+
+#estado {
+  text-align: center;
+}
+
+#inputValue {
+  outline: none;
+  width: 300px;
+  height: 20px;
+  background-color: brown;
+  color: white;
+  font-size: 16px;
+  border-style: none;
+}
+
+#inputValue::placeholder {
+  color: white;
+}
+
+#inputValue:focus {
+  outline: none;
+}
+
+#addbtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-style: none;
+  color: brown;
+}
+
+#addbtn:hover {
+  background-color: rgb(190, 108, 108);
+  cursor: pointer;
+}
+
+.container {
+  margin: 0px auto;
+  width: 400px;
+}
+
+.tarea-container {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#btn-delete:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#estado {
+  color: rgba(255, 255, 255, 0.247);
+}
